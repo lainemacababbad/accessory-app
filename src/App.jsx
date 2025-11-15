@@ -359,7 +359,7 @@ const AccessoryApp = () => {
   return (
   <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-50 to-purple-50">
     {/* Phone frame */}
-    <div className="w-full max-w-sm h-[90vh] bg-white rounded-3xl shadow-2xl border border-pink-100 overflow-hidden flex flex-col">
+    <div className="w-full sm:max-w-sm sm:h-[90vh] bg-white sm:rounded-3xl sm:shadow-2xl sm:border sm:border-pink-100 overflow-hidden flex flex-col">
       {/* Scrollable content inside phone */}
       <div className="flex-1 overflow-y-auto p-4">
         <header className="mb-6">
